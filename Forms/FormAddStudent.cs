@@ -14,7 +14,14 @@ namespace FormCollection.Forms
     {
         public FormAddStudent()
         {
+
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        private void FormAddStudent_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
